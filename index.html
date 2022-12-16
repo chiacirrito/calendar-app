@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="shortcut icon" href="https://www.terrybeautycenter.it/wp-content/uploads/2022/05/iconesito_corpo_oro-2048x2048-1-1024x1024.png" />
+    <title>Calendar App</title>
+  </head>
+  <body id="homepage">
+    <hero class="hero">Calendar App</hero>
+    <nav class="nav">
+      <li><a href="#one">Hair</a></li>
+      <li><a href="#two">Nails</a></li>
+      <li><a href="#three">Other</a></li>
+    </nav>
+
+    <!--Sotto 375-->
+    
+    <form name="appointments" class="form" autocomplete="off">
+      <input type="text" name="surname" placeholder="Surname" id="name" required/>
+      <input type="date" name="datetime" placeholder="Date" id="date">
+      <input type="text" name="hour" placeholder="Time" id="hour">
+      <input type="submit"class="submit" value="Submit"/>
+    </form>
+    
+    <section class="one" id="one">
+        <img src="https://www.gossip.sm/wp-content/uploads/2020/01/taglio.jpg" />
+        <h5>Hair cut appointments</h5>
+        <div class="hair" id="hair">
+        </div>
+      </section>
+      <section class="two" id="two">
+        <img
+          src="https://www.formapro.it/wp-content/uploads/2019/11/strumenti-manicure-come-aprire-centro-estetico.jpg"
+        />
+        <h5>Nail Salon Appointments</h5>
+        <div class="nails" id="nails">
+        </div>
+      </section>
+      <section class="three" id="three">
+        <div class="img_other">
+          <img
+            src="https://static.wixstatic.com/media/6a450d_29b2d697a99d414086eb090c3dabe682~mv2_d_1800_1200_s_2.jpg/v1/fill/w_640,h_574,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6a450d_29b2d697a99d414086eb090c3dabe682~mv2_d_1800_1200_s_2.jpg"
+          />
+          <img
+            src="https://www.dahara.ch/wp-content/uploads/2019/10/Ceretta.jpeg"
+          />
+          <img
+            src="https://www.muamilano.it/wp-content/uploads/2013/10/img-trucco.jpg"
+          />
+        </div>
+        <h5>Other appointments</h5>
+        <div class="other" id="other">
+        </div>
+      </section>
+      <a href="#homepage">
+        <button class="scroll-up">&#94;</button>
+      </a>
+      <footer>
+      </footer>
+    </body>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./utils.js"></script>
+  </html>
+  
+  </body>
+</html>
